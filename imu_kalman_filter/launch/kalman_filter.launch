@@ -1,0 +1,15 @@
+<!-- Kalman launch file -->
+<launch>
+  #### Kalman filter
+
+  <node pkg="imu_kalman_filter" type="imu_kalman_filter_node"
+      name="imu_kalman_filter_node" output="screen">
+    <!-- <param name="do_bias_estimation" value="true"/>
+    <param name="do_adaptive_gain" value="true"/>
+    <param name="use_mag" value="false"/>
+    <param name="gain_acc" value="0.01"/>
+    <param name="gain_mag" value="0.01"/> -->
+
+
+  </node>
+</launch>
